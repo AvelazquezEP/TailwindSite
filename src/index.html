@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Landinpage oficial del abogado Eric Price" />
+    <meta name="description" content="Landingpage oficial del abogado Eric Price" />
     <meta name="author" content="Alberto Martinez" />
 
     <link rel="icon" type="image/x-icon" href="images/Attorney-Eric-Price-1365x2048.webp">
@@ -88,7 +88,7 @@
                         </li>
                         <li class="mr-3">
                             <a class="inline-block no-underline bg-orange-400 hover:bg-orange-500 rounded hover:text-gray-50 hover:text-underline py-2 px-4 lg:text-white "
-                                href="">English</a>
+                                href="english.html">English</a>
                         </li>
                     </ul>
                 </div>
@@ -236,7 +236,8 @@
                 <h2 class="text-3xl font-bold leading-10">
                     Eric Price esta dispuesto a ayudarte a cumplir tus sueños.
                 </h2>
-                <p class="text-xl text-gray-50 font-normal leading-8">En abogado Eric Price podemos ayudarte a cumplir tus sueños de
+                <p class="text-xl text-gray-50 font-normal leading-8">En abogado Eric Price podemos ayudarte a cumplir
+                    tus sueños de
                     inmigración. Pide tu consulta gratuita
                     con nosotros hoy.</p>
                 <button
@@ -752,7 +753,7 @@
         <section class="bg-gray-50">
             <div class="px-4 mx-auto max-w-screen-md">
                 <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST"
-                    class="space-y-8">
+                    onsubmit="testForm()" class="space-y-8">
 
                     <!-- INPUT HIDDEN / DON'T DELETE -->
                     <input type=hidden name="oid" value="00D5f000006OVX8">
@@ -853,7 +854,7 @@
                         </p>
                     </div>
                     <div class="text-center">
-                        <button type="submit"
+                        <button type="submit" id="ButtonSend"
                             class="w-11/12 py-2.5 px-5 mr-2 mb-2 text-xl font-medium text-white focus:outline-none bg-orange-400 rounded-lg border border-gray-200 hover:bg-orange-500 focus:z-10 focus:ring-4 focus:ring-gray-200">
                             Enviar
                         </button>
@@ -1026,6 +1027,7 @@
 
     <!-- <script src=" js/nav.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/form.js"></script>
     <script src="js/smoothScroll.js"></script>
     <script src="js/toggle.js"></script>
 </body>
